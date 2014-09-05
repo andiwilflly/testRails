@@ -1,3 +1,23 @@
 body {
   background: floralwhite;
+  font-family: 'Arial';
+  .container {
+    position: relative;
+    .inner {
+      background: teal;
+      width: 960px;
+      margin: 100px auto;
+      color: whitesmoke;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+  }
+}
+
+a {
+  color: cornflowerblue;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }

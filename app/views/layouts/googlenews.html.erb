@@ -6,9 +6,20 @@
   <%= javascript_include_tag 'googlenews/application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body id="googlenews">
 
-<%= yield %>
+<%= link_to "Home", { controller: "home" } %>
+<hr/>
+
+<div class="container">
+  <div class="inner">
+    <%= yield %>
+  </div>
+</div>
+
+
+
+
 
 </body>
 </html>
